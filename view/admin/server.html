@@ -31,8 +31,8 @@
                             <input class="form-control" placeholder="Server Demo 1" name="servername" type="text" value="{{ @server->servername }}" required>
                         </div>
                         <div class="form-group">
-                            <label>Lokasi Server</label>
-                            <input class="form-control" placeholder="Singapore" name="country" type="text" value="{{ @server->country }}" required>
+                            <label>Config Server</label>
+                            <input class="form-control" placeholder="Config" name="country" type="text" value="{{ @server->country }}" required>
                         </div>
                         <div class="form-group">
                             <label>IP / Host</label>
@@ -41,8 +41,8 @@
                         <div class="form-group">
                             <label>Harga Sewa / Bulan</label>
                             <div class="input-group">
-                                <span class="input-group-addon">Rp. </span>
-                                <input class="form-control" placeholder="10000" name="price" type="number" step="100" value="{{ @server->price }}" required>
+                                <span class="input-group-addon">RM </span>
+                                <input class="form-control" placeholder="50" name="price" type="number" step="1" value="{{ @server->price }}" required>
                             </div>
                         </div>
                         <div class="form-group">
